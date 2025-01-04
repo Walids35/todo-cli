@@ -13,4 +13,6 @@ func main(){
 		todos = []todo.Todo{}
 	}
 	todo.ListTodos(todos)
+	todo.AddTodo("Clean my bed", &todos)
+	todo.ListTodos(todos)
 }
