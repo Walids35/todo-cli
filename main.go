@@ -15,4 +15,8 @@ func main(){
 	todo.ListTodos(todos)
 	todo.AddTodo("Clean my bed", &todos)
 	todo.ListTodos(todos)
+	todo.MarkCompleted("1", &todos)
+	todo.ListTodos(todos)
+	todo.DeleteTodo("1", &todos)
+	todo.ListTodos(todos)
 }
