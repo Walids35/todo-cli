@@ -16,6 +16,8 @@ $ todo-cli list
 $ todo-cli mark
 $ todo-cli delete
 ```
+![image](https://github.com/user-attachments/assets/1a5fdb1a-5024-426a-a932-205b07260e2b)
+
 
 ## Notable Packages used
 - **encoding/csv** for writing out as a csv file
